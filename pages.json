@@ -1,0 +1,80 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		//Element
+		{
+			"path": "pages/Element/Layout",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/Element/Bg",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/Element/Tag",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/Element/Icon",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/Element/Button",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		
+		{
+			"path": "pages/Element/Text",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+		// ,{
+		// 	"path": "pages/Element/Shadow",
+		// 	"style": {
+		// 		"navigationBarTitleText": "uni-app"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/Element/loading",
+		// 	"style": {
+		// 		"navigationBarTitleText": "uni-app"
+		// 	}
+		// }
+		,
+		{
+			"path": "pages/Element/Avatar",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+		, {
+			"path": "pages/Element/Process",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
