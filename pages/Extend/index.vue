@@ -4,7 +4,7 @@
 			{{data.Title}}
 		</view>
 		<view class="extebdList">
-			<view :style="{backgroundColor:item.bgColor}" class="extebd-item" v-for="(item,index) in data.itemList" :key="index">
+			<view :style="{backgroundColor:item.bgColor}" class="extebd-item" v-for="(item,index) in data.itemList" :key="index" @tap="goPage(item.itemText)">
 				<view class="extebd-img">
 					<image :style="{width:item.imgW+'px',height:item.imgH+'px'}" :src="item.itemImgUrl" mode=""></image>
 				</view>
@@ -27,7 +27,7 @@
 					Title: '插件扩展',
 					itemList: [{
 							itemTitle: '索引列表',
-							itemText: "Index",
+							itemText: "IndexList",
 							itemImgUrl: '../static/images/icons/Index.png',
 							bgColor: '#2754AD',
 							imgW:56,
@@ -51,7 +51,7 @@
 						},
 						{
 							itemTitle: '垂直导航',
-							itemText: "Vertical Nav",
+							itemText: "VerticalNav",
 							itemImgUrl: '../static/images/icons/Vertical_Nav.png',
 							bgColor: '#7B31A3',
 							imgW:41,
@@ -59,6 +59,13 @@
 						}
 					]
 				}
+			}
+		},
+		methods: {
+			goPage(page) {
+				uni.navigateTo({
+					url:'/pages/Extend/'+page
+				})
 			}
 		}
 	}

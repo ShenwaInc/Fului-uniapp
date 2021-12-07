@@ -4,7 +4,7 @@
 			{{data.Title}}
 		</view>
 		<view class="nav-list">
-			<view class="nav-item" v-for="(item,index) in data.itemList" :key="index">
+			<view class="nav-item" v-for="(item,index) in data.itemList" :key="index" @tap="goPage(item.itemText)">
 				<view class="item-img">
 					<image :src="item.itemImgUrl" mode=""></image>
 				</view>
@@ -92,7 +92,11 @@
 			}
 		},
 		methods: {
-
+			goPage(page) {
+				uni.navigateTo({
+					url:'/pages/Comp/'+page
+				})
+			}
 		}
 	}
 </script>

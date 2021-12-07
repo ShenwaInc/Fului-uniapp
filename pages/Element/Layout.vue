@@ -1,7 +1,7 @@
 <template>
 	<view class="">
-		<FuiNavBar>
-			<block slot="content">布局</block>
+		<FuiNavBar class="bg-blue"> 
+			<block slot="title">布局</block>
 		</FuiNavBar>
 		<view class="wrap">
 			<view class="wrap-item margin-top-xl  fui-tabs shadow radius">

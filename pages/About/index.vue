@@ -34,12 +34,12 @@
 				</view>
 			</view>
 			<view class="abouList">
-				<view class="about-item" v-for="(item,index) in itemList" :key="index">
+				<view class="about-item" v-for="(item,index) in itemList" :key="index" @tap="goPage(item.page)">
 					<image :src="item.icon" mode=""></image>
 					<view class="about-item-text">
 						{{item.title}}
 					</view>
-					<view class="right-arrow"></view>
+					<view class="right-arrow padding-right-lg"></view>
 				</view>
 				
 			</view>
@@ -54,7 +54,9 @@
 			return {
 				itemList: [{
 					icon: '../static/images/icons/guanyu.png',
-					title: '关于我们'
+					title: '关于我们',
+					page:'guanyu'
+					
 				}, {
 					icon: '../static/images/icons/tuiguang.png',
 					title: '推广中心'
@@ -63,8 +65,15 @@
 					title: '联系客服'
 				}, {
 					icon: '../static/images/icons/yijian.png',
-					title: '意见反馈'
+					title: '意见反馈',
+					page:'yijian'
 				}]
+			}
+		},methods: {
+			goPage(page) {
+				uni.navigateTo({
+					url:'/pages/About/'+page
+				})
 			}
 		}
 	}

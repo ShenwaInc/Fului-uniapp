@@ -1,7 +1,7 @@
 <template>
 	<view class="">
-		<FuiNavBar>
-			<block slot="content">进度条</block>
+		<FuiNavBar class="bg-blue"> 
+			<block slot="title">进度条</block>
 		</FuiNavBar>
 		<view class="wrap">
 			<!-- 线形进度条 start -->

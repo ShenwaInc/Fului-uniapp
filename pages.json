@@ -37,39 +37,136 @@
 				"navigationBarTitleText": "uni-app"
 			}
 		},
-		
+
 		{
 			"path": "pages/Element/Text",
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
-		}
-		// ,{
-		// 	"path": "pages/Element/Shadow",
-		// 	"style": {
-		// 		"navigationBarTitleText": "uni-app"
-		// 	}
-		// },
-		// {
-		// 	"path": "pages/Element/loading",
-		// 	"style": {
-		// 		"navigationBarTitleText": "uni-app"
-		// 	}
-		// }
-		,
+		}, {
+			"path": "pages/Element/Shadow",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/Element/loading",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
 		{
 			"path": "pages/Element/Avatar",
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
-		}
-		, {
+		}, {
 			"path": "pages/Element/Process",
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		//Comp
+		{
+			"path": "pages/Comp/Bar",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/Comp/Nav",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/Comp/List",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/Comp/Card",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		
+		{
+			"path": "pages/Comp/Form",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/Comp/Timeline",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		
+		{
+			"path": "pages/Comp/Chat",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},{
+			"path": "pages/Comp/Swiper",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},{
+			"path": "pages/Comp/Step",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
 		}
-
+		,{
+			"path": "pages/Comp/Modal",
+			"style": {
+				"navigationBarTitleText": "Modal"
+			}
+		},
+		{
+			"path": "pages/Extend/IndexList",
+			"style": {
+				"navigationBarTitleText": "IndexList"
+			}
+		},
+		{
+			"path": "pages/Extend/VerticalNav",
+			"style": {
+				"navigationBarTitleText": "VerticalNav"
+			}
+		},
+		{
+			"path": "pages/Extend/Drawer",
+			"style": {
+				"navigationBarTitleText": "Drawer"
+			}
+		},
+		{
+			"path": "pages/Extend/Upload",
+			"style": {
+				"navigationBarTitleText": "Upload"
+			}
+		},
+		
+		{
+			"path": "pages/About/guanyu",
+			"style": {
+				"navigationBarTitleText": "guanyu"
+			}
+		},
+		
+		{
+			"path": "pages/About/yijian",
+			"style": {
+				"navigationBarTitleText": "yijian"
+			}
+		}
+		
+		
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

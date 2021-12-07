@@ -14,7 +14,7 @@
 
 <style lang="scss">
 	/*每个页面公共css */
-	@import url(@/common/css/main.scss);
+	@import url(@/common/css/fui.css);
 
 	body {
 		background-color: $uni-bg-color;

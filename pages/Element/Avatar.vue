@@ -1,7 +1,7 @@
 <template>
 	<view class="">
-		<FuiNavBar>
-			<block slot="content">头像</block>
+		<FuiNavBar class="bg-blue"> 
+			<block slot="title">头像</block>
 		</FuiNavBar>
 		<view class="wrap">
 			<!-- 头像尺寸形状1 start -->

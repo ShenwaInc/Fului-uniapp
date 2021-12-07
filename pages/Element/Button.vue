@@ -1,7 +1,7 @@
 <template>
 	<view class="">
-		<FuiNavBar>
-			<block slot="content">按钮</block>
+		<FuiNavBar class="bg-blue"> 
+			<block slot="title">按钮</block>
 		</FuiNavBar>
 		<view class="wrap">
 			<!-- 按钮形状 start -->
@@ -130,7 +130,7 @@
 					<view class="flex padding-tb-xs bg-white align-center">
 						<view class="flex-column align-center margin-right-sm">
 							<uni-button class="fui-button fui-button-df circle">图</uni-button>
-							<view class="font-sm color-grey">
+							<view class="font-sm text-grey">
 								辅助操作
 							</view>
 						</view>
@@ -144,13 +144,13 @@
 					<view class="flex padding-tb-xs bg-white align-center">
 						<view class="flex-column align-center margin-right-sm">
 							<uni-button class="fui-button fui-button-df circle">图</uni-button>
-							<view class="font-sm color-grey">
+							<view class="font-sm text-grey">
 								辅助操作
 							</view>
 						</view>
 						<view class="flex-column align-center margin-right-sm">
 							<uni-button class="fui-button fui-button-df circle">图</uni-button>
-							<view class="font-sm color-grey">
+							<view class="font-sm text-grey">
 								辅助操作
 							</view>
 						</view>
@@ -164,19 +164,19 @@
 					<view class="flex padding-tb-xs bg-white align-center">
 						<view class="flex-column align-center margin-right-sm">
 							<uni-button class="fui-button fui-button-df circle">图</uni-button>
-							<view class="font-sm color-grey">
+							<view class="font-sm text-grey">
 								辅助操作
 							</view>
 						</view>
 						<view class="flex-column align-center margin-right-sm">
 							<uni-button class="fui-button fui-button-df circle">图</uni-button>
-							<view class="font-sm color-grey">
+							<view class="font-sm text-grey">
 								辅助操作
 							</view>
 						</view>
 						<view class="flex-column align-center margin-right-sm">
 							<uni-button class="fui-button fui-button-df circle">图</uni-button>
-							<view class="font-sm color-grey">
+							<view class="font-sm text-grey">
 								辅助操作
 							</view>
 						</view>

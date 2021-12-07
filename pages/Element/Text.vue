@@ -1,7 +1,7 @@
 <template>
 	<view class="">
-		<FuiNavBar>
-			<block slot="content">文本</block>
+		<FuiNavBar class="bg-blue"> 
+			<block slot="title">文本</block>
 		</FuiNavBar>
 		<view class="wrap">
 			<!-- 字号大小 start -->
@@ -10,7 +10,7 @@
 					<image src="../../static/images/icons/czdq.png" mode=""></image>
 					字号大小
 				</view>
-				<view class="fui-car__content padding-sm margin-xs font-xs color-grey">
+				<view class="fui-car__content padding-sm margin-xs font-xs text-grey">
 					设计标准字体：苹方-简/PingFang</br>
 					粗细按照页面需求选择，默认行高为字号1.5倍
 				</view>
@@ -143,6 +143,12 @@
 </template>
 
 <script>
+	import FuiNavBar from '@/common/FuiNavBar.vue'
+	export default {
+		components: {
+			FuiNavBar
+		}
+	}
 </script>
 
 <style>

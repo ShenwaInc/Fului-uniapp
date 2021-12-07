@@ -1,7 +1,7 @@
 <template>
 	<view class="">
-		<FuiNavBar>
-			<block slot="content">文本</block>
+		<FuiNavBar class="bg-blue"> 
+			<block slot="title">文本</block>
 		</FuiNavBar>
 		<view class="wrap">
 			<!-- 图标 start -->

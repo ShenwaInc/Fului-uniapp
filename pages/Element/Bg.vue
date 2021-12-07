@@ -1,7 +1,7 @@
 <template>
 	<view class="">
-		<FuiNavBar>
-			<block slot="content">背景</block>
+		<FuiNavBar class="bg-blue"> 
+			<block slot="title">背景</block>
 		</FuiNavBar>
 		<view class="wrap">
 			<!-- 颜色 start -->
